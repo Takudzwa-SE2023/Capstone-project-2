@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class SuperQuickFood {
+public class SuperQuickFoods {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
             // Creating a new Restaurant object(user input)
