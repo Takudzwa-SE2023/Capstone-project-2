@@ -9,6 +9,7 @@ import java.util.Scanner;
 
 public class SuperQuickFoods {
     public static void main(String[] args) {
+    	System.out.println("Hello and Welcome to the fastest food delivering application, please follow the instructions to come and find out if we are in range for delivering to you");
         try (Scanner scanner = new Scanner(System.in)) {
             // Creating a new Restaurant object(user input)
             System.out.println("Enter restaurant name:");
