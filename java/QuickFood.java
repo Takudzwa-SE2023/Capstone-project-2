@@ -72,7 +72,7 @@ public class QuickFood {
 
             // Read drivers.txt file and find the driver in the correct area with the smallest load (includes where to find the driver.txt)
             try {
-                File file = new File("C:\\Users\\takud\\Dropbox\\tk22010002795\\2. Advanced Programming Concepts\\L2T07\\Comp Task2\\src\\Customer\\java\\drivers.txt");
+                File file = new File("C:\\Users\\takud\\Dropbox\\tk22010002795\\2. Advanced Programming Concepts\\L2T07\\Comp Task2\\src\\Customer\\java\\drivers-info.txt");
                 Scanner fileScanner = new Scanner(file);
                 String driverName = "";
                 String driverArea = "";
