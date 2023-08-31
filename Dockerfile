@@ -2,4 +2,4 @@ FROM openjdk:11
 WORKDIR /app
 COPY . /app
 RUN javac *.java
-CMD ["java", "main"]
+CMD java main
