@@ -1,4 +1,4 @@
-FROM openjdk:11-jre-slim
+FROM openjdk:11
 RUN mkdir /app
 WORKDIR /app
 COPY SuperQuickFoods.java /app
